@@ -914,11 +914,11 @@
 }
 
 .swiper-pagination-bullets.swiper-pagination-horizontal,
-.testimonial .swiper-horizontal>.swiper-pagination-bullets {
-    bottom: auto
+#testimonial .swiper-horizontal > .swiper-pagination-bullets {
+    bottom: auto;
 }
 
-.swiper-pagination-bullet-active {
+#testimonial .swiper-pagination-bullet-active {
     background: #f55f8d
 }
 
@@ -937,6 +937,10 @@
     font-weight: 400;
     font-style: italic;
     padding: 0 15px 15px
+}
+
+.testimonial-text .testimonial__position {
+    color: #f55f8d;
 }
 
 .testimonial-name {
